@@ -3,13 +3,17 @@ This repository contains simulation and analysis code used in the preparation of
 
 This code requires the following Python packges: `numpy`, `matplotlib`, `scipy`, `pandas`, and `h5py`. 
 You can install them using:
-<pre>```bash pip install numpy matplotlib scipy pandas h5py```</pre>
+```
+pip install numpy matplotlib scipy pandas h5py
+```
 
 ### Toy model
 The directory `toy_model/` contains code to simulate the toy model using Hybrid Monte Carlo and Radial Updates.  
 The script `main.py` can be used to perform simulations detailed in the configuration file `toy.yaml`.  
 To run the code navigate into `toy_model/` and execute: 
-<pre>```bash python main.py toy_model.yaml```</pre>
+```
+python main.py radial_toy.yaml
+```
 
 
 ### Analysis code
